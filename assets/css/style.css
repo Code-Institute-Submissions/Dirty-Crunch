@@ -4,3 +4,41 @@ body {
   font-family: Lato, sans-serif;
   background-color:#f2e9e4;
 }
+
+/*Navbar*/
+
+.navbar {
+  background-color:#f2e9e4;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #9d0208;
+  text-align: center;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+}
+
+.navbrar-brand {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #c9ada7;
+}
+
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
