@@ -42,3 +42,29 @@ body {
 .navbar-toggler.toggler-example {
 cursor: pointer;
 }
+
+/* Carousel*/
+
+.container-fluid {
+    margin-top: 3.15rem; 
+}
+
+.carousel-inner img {
+   width: 100%;
+   max-height: 50rem;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   opacity: 0.9;
+   top: 3.15rem;
+}
+
+.main-text {
+    position: absolute;
+    top: 4.50rem;
+    width: 96.66666666666666%;
+    color: #9d0208;
+}
+
