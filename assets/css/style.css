@@ -100,6 +100,53 @@ cursor: pointer;
     
 }
 
+/* Location */
+.location-container {
+    width: 100%;
+    max-height: 50rem;
+    background-image: url("../images/main.jpg");
+    background-size: 100% 100%;
+    border: 1px solid red;
+    margin-top: 2rem;
+}
+
+.col-location {
+    border: solid;
+    margin: 0.5rem;
+    background: rgba(116, 85, 77, 0.555)
+    
+}
+
+.col-location h3 {
+    color: #9d0208;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+i {
+    font-size: 1.25rem;
+}
+
+.col-location p {
+    text-align: center;
+    color: #9d0208;
+    line-height: 0.8;
+}
+
+.delivery-list {
+    list-style-type: none;
+    color: #9d0208; 
+    text-decoration: underline;
+    line-height: 1.8;
+    text-align: center;  
+}
+
+.delivery-list li a {
+    color: #9d0208;
+}
+
 /* Footer */
 
 .col-footer {
