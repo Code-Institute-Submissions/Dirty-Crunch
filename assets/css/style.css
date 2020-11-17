@@ -3,6 +3,7 @@
 body {
   font-family: Lato, sans-serif;
   background-color:#f2e9e4;
+  color: #9d0208;
 }
 
 /*Navbar*/
@@ -41,6 +42,10 @@ body {
 
 .navbar-toggler.toggler-example {
 cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #9d0208 !important;
 }
 
 /* Carousel*/
