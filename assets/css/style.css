@@ -110,17 +110,19 @@ cursor: pointer;
 .location-container {
     width: 100%;
     max-height: 50rem;
-    background-image: url("../images/main.jpg");
-    background-size: 100% 100%;
-    border: 1px solid red;
     margin-top: 2rem;
+    padding-left: 2rem;
 }
+
+.location-container p {
+    padding-left: 2rem;
+}
+
 
 .col-location {
     border: solid;
     margin: 0.5rem;
-    background: rgba(116, 85, 77, 0.555)
-    
+    background: rgba(116, 85, 77, 0.555)   
 }
 
 .col-location h3 {
@@ -145,8 +147,7 @@ i {
     list-style-type: none;
     color: #9d0208; 
     text-decoration: underline;
-    line-height: 1.8;
-    text-align: center;  
+    line-height: 1.8; 
 }
 
 .delivery-list li a {
