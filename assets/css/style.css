@@ -93,6 +93,7 @@ cursor: pointer;
 .menu-col h3 {
     color: #9d0208;
     font-weight: 700;
+    font-family: 'Lobster', cursive;
 }
 
 .menu-col p {
