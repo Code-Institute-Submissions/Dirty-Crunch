@@ -37,11 +37,11 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #c9ada7;
+    background-color: #c9ada7;
 }
 
 .navbar-toggler.toggler-example {
-cursor: pointer;
+    cursor: pointer;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -66,11 +66,16 @@ cursor: pointer;
    top: 3.15rem;
 }
 
-.main-text {
-    position: absolute;
-    top: 4.50rem;
-    width: 96.66666666666666%;
+.row-info {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
     color: #9d0208;
+    font-family: Lobster;
+}
+
+.h2 {
+    font-family: Lato;
 }
 
 /* Menu */
