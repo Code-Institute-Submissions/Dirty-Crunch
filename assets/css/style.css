@@ -67,11 +67,12 @@ body {
 }
 
 .row-info {
-    margin-top: 1rem;
+    margin-top: 150px;
     margin-bottom: 2rem;
     width: 100%;
     color: #9d0208;
     font-family: Lobster;
+    height: 300px;
 }
 
 .h2 {
