@@ -53,6 +53,23 @@ Please see [mobile version](https://postimg.cc/k6G3hn0X) and [desktop version](h
 - Project's responsiveness has been also manually checked on iPhone, Google Chrome, Microsoft Edge.
 - Feedback has been asked from friends, who interacted with the live project manually.
 
+## Testing user stories ##
+- As a user, I want to see pictures of food, to know what I will receive. 
+
+    Website main page is the carousel of food pictures, the user will straight land on desirable food.
+
+- As a user, I want to see a full food menu with a price list, to know if this place meets my budget.
+
+    User can scroll down or use the drop-down navigation bar to move straight to food menu with prices and full dish description.
+
+- As a user, I want to know the location of the place, to know if it far from my home.
+
+    User can scroll down or use a drop-down navigation bar to move straight to restaurant location. Where user will see a full restaurant's address with postcode.
+
+- As a user, I want to know opening hours, to know when I can come.
+
+    User can scroll down or use a drop-down navigation bar to move straight to location row. Where user can see the opening hours of a restaurant with a specific day of the week.
+
 ### Issues ###
 - Background picture in the location container needed to be removed as users couldn't see text with information.
 - Same effect happened with text over pictures carousel. I move text under carousel that users focused more on pictures before 
@@ -60,6 +77,12 @@ heading to the story of the restaurant.
 -Navigation bar's dropdown was not working on the top of the carousel. Z index has been raised to fix this issue.
 
 # Deployment #
+
+### Managing Git ###
+1. I started with creating a local git repo using the command `git init`; 
+2. I then added to my local repo using `git add .`;
+3. And then commit them to my local repo using `git commit -m "message"`;
+4. Once that was done I push my local repo to the remote (Github) using `git push`.
 
 ### GitHub Pages ###
 I deploy my website in these following steps:
