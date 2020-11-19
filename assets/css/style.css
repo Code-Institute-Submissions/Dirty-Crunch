@@ -188,9 +188,9 @@ i {
 
 /* Media screen */
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .menu-container {
-        min-height: 75vh
+        min-height: 75vh;
         line-height: 2.5rem;
     }
 }
